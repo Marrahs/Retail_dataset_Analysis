@@ -39,7 +39,7 @@ What product categories drive the highest revenue, and how can we optimize inven
    5.CUST072
 
 ##  Visualizations  
-![Revenue by Category](visuals/revenue_by_month.png)  
+![Revenue by Category](visuals/revenue_by_category.png)  
 ![Monthly Sales Trend](visuals/revenue_by_month.png) 
 
 ## Files  
