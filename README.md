@@ -26,8 +26,8 @@ What product categories drive the highest revenue, and how can we optimize inven
 - 771 Beauty products
 
 ### 3. Revenue vs Quantity Sold  
-- Electronics: Highest revenue (premium products).  
-- Beauty products: Lower revenue, low quantity.  
+- Electronics: Highest revenue.  
+- Beauty products: Lowest revenue.  
 
 ### 4. Top Customers  
 - Top 5 customers with the highest purchase.
@@ -38,5 +38,5 @@ What product categories drive the highest revenue, and how can we optimize inven
    5.CUST072
 
 ##  Visualizations  
-![Revenue by Category](revenue_by_category.png)  
-![Monthly Sales Trend](revenue_by_month.png) 
+ ![Revenue by Category](revenue_by_category.png)  
+ ![Monthly Sales Trend](revenue_by_month.png) 
