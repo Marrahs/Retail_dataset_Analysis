@@ -1,10 +1,9 @@
 # Reatail_dataset_Analysis
 # Retail Sales Analysis  
-
-## Business Question  
+ 
 What product categories drive the highest revenue, and how can we optimize inventory and sales strategies?  
 
-## Methods  
+## Methods used
 - **Tools:** SQL, Python (Pandas, Matplotlib), Jupyter Notebook  
 - **Data Cleaning:** Handled missing values, converted data types.  
 - **Analysis:** Aggregated revenue by category and month.  
@@ -39,10 +38,5 @@ What product categories drive the highest revenue, and how can we optimize inven
    5.CUST072
 
 ##  Visualizations  
-![Revenue by Category](visuals/revenue_by_category.png)  
-![Monthly Sales Trend](visuals/revenue_by_month.png) 
-
-## Files  
-- `retail_sale.sql`: All SQL queries used.  
-- `.retail_python_checkpoints`: Full Python analysis.  
-- `retail_sales_dataset.csv`: Dataset used.  
+![Revenue by Category](Retail_Analysis/visuals/revenue_by_category.png)  
+![Monthly Sales Trend](Retail_Analysis/visuals/revenue_by_month.png) 
