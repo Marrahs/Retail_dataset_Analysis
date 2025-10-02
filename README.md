@@ -10,15 +10,26 @@ What product categories drive the highest revenue, and how can we optimize inven
 
 ##  Key Insights  
 
-### 1. Top Product Category by Revenue  
+### 1. Top Product Category by Revenue
+
+```sql
+SELECT Product_Category , SUM(Total_Amount) AS Total_Revenue
+FROM retail_sales_dataset
+GROUP BY Product_Category
+ORDER BY Total_Revenue DESC
+LIMIT 10;
+```
 (Assuming the currency is USD)
 - Electronics generated $156,905 (highest revenue).  
 - Clothing generated $155,580.  
 - Beauty generated $143,515(lowest revenue).  
 
 ### 2. Sales Trends Over Time  
+
+
 - Sales peaked in **May** (highest sales).  
 - Lowest sales occurred in **January** .
+
 
 ### 3. Top Product Category by Quantity
 - 894 Clothing products.
