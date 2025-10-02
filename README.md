@@ -25,13 +25,24 @@ LIMIT 10;
 - Beauty generated $143,515(lowest revenue).  
 
 ### 2. Sales Trends Over Time  
-
-
+```python
+retail_df['Date'] = pd.to_datetime(retail_df['Date'])
+retail_df['Month'] = retail_df['Date'].dt.to_period('M')
+Monthly_Revenue = retail_df.groupby('Month')['Total Amount'].sum().sort_values(ascending=False)
+Monthly_Revenue
+```
 - Sales peaked in **May** (highest sales).  
 - Lowest sales occurred in **January** .
 
 
 ### 3. Top Product Category by Quantity
+```sql
+SELECT Product_Category , SUM(Quantity) AS Total_Quantity
+FROM retail_sales_dataset
+GROUP BY Product_Category
+ORDER BY Total_Quantity DESC
+LIMIT 10;
+```
 - 894 Clothing products.
 - 849 Electronics products.
 - 771 Beauty products.
@@ -42,6 +53,13 @@ LIMIT 10;
 
 ### 4. Top Customers  
 - Top 5 customers with the highest purchase.
+```sql
+SELECT Customer_ID , MAX(Total_Amount) AS Highest_Purchase
+FROM retail_sales_dataset
+GROUP BY Customer_ID
+ORDER BY Highest_Purchase DESC
+LIMIT 5;
+```
   - 1.CUST015
   - 2.CUST074
   - 3.CUST065
@@ -49,7 +67,7 @@ LIMIT 10;
   - 5.CUST072
 
 ## Optimize Inventory
-  - Stock more of electronics for higher revenue.
+  - Stock more of electronics for higher revenue. 
   - Run promotions in january(low sales month).
     
 ##  Visualizations  
