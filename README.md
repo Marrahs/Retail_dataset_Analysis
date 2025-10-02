@@ -1,5 +1,4 @@
-# Retail_Dataset_Analysis
-# Retail Sales Analysis  
+# Retail_Dataset_Analysis 
 
 ## Buisness Problem
 What product categories drive the highest revenue, and how can we optimize inventory and sales strategies?  
