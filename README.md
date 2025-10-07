@@ -1,4 +1,5 @@
 # Retail_Dataset_Analysis 
+In this project, I analyzed retail dataset to identify top performing products, monthly sales trends, and customer retention metric using python(pandas, matplotlib). This analysis could help retailers improve inventory and sales strategy.
 
 ## Buisness Problem
 What product categories drive the highest revenue, and how can we optimize inventory and sales strategies?  
